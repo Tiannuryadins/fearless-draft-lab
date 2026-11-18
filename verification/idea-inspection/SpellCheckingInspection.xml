@@ -1,0 +1,1400 @@
+<problems is_local_tool="true">
+<problem>
+  <file>file://$PROJECT_DIR$/LICENSE</file>
+  <line>3</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/LICENSE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Januar'</description>
+  <highlighted_element>Januar</highlighted_element>
+  <language>TEXT</language>
+  <offset>19</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/LICENSE</file>
+  <line>3</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/LICENSE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Nuryadin'</description>
+  <highlighted_element>Nuryadin</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>16</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'aatrox'</description>
+  <highlighted_element>aatrox</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>16</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Aatrox'</description>
+  <highlighted_element>Aatrox</highlighted_element>
+  <language>TEXT</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>16</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ksante'</description>
+  <highlighted_element>ksante</highlighted_element>
+  <language>TEXT</language>
+  <offset>147</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>16</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'sejuani'</description>
+  <highlighted_element>sejuani</highlighted_element>
+  <language>TEXT</language>
+  <offset>219</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>16</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'orianna'</description>
+  <highlighted_element>orianna</highlighted_element>
+  <language>TEXT</language>
+  <offset>230</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>17</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ambessa'</description>
+  <highlighted_element>ambessa</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>17</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Ambessa'</description>
+  <highlighted_element>Ambessa</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>17</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'renekton'</description>
+  <highlighted_element>renekton</highlighted_element>
+  <language>TEXT</language>
+  <offset>149</offset>
+  <length>8</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>18</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'naafiri'</description>
+  <highlighted_element>naafiri</highlighted_element>
+  <language>TEXT</language>
+  <offset>236</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>18</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'rell'</description>
+  <highlighted_element>rell</highlighted_element>
+  <language>TEXT</language>
+  <offset>247</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>24</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Renekton'</description>
+  <highlighted_element>Renekton</highlighted_element>
+  <language>TEXT</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>30</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'jarvan'</description>
+  <highlighted_element>jarvan</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>30</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Jarvan'</description>
+  <highlighted_element>Jarvan</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>30</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'vigo'</description>
+  <highlighted_element>vigo</highlighted_element>
+  <language>TEXT</language>
+  <offset>173</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>30</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'skarner'</description>
+  <highlighted_element>skarner</highlighted_element>
+  <language>TEXT</language>
+  <offset>201</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>30</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'maokai'</description>
+  <highlighted_element>maokai</highlighted_element>
+  <language>TEXT</language>
+  <offset>212</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>33</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Maokai'</description>
+  <highlighted_element>Maokai</highlighted_element>
+  <language>TEXT</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>34</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Naafiri'</description>
+  <highlighted_element>Naafiri</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>37</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Sejuani'</description>
+  <highlighted_element>Sejuani</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>38</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Skarner'</description>
+  <highlighted_element>Skarner</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>40</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Viego'</description>
+  <highlighted_element>Viego</highlighted_element>
+  <language>TEXT</language>
+  <offset>23</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>40</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'aphelios'</description>
+  <highlighted_element>aphelios</highlighted_element>
+  <language>TEXT</language>
+  <offset>230</offset>
+  <length>8</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>41</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'wukong'</description>
+  <highlighted_element>wukong</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>41</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Wukong'</description>
+  <highlighted_element>Wukong</highlighted_element>
+  <language>TEXT</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>45</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ahri'</description>
+  <highlighted_element>ahri</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>45</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Ahri'</description>
+  <highlighted_element>Ahri</highlighted_element>
+  <language>TEXT</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>45</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'hwei'</description>
+  <highlighted_element>hwei</highlighted_element>
+  <language>TEXT</language>
+  <offset>148</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>45</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ziggs'</description>
+  <highlighted_element>ziggs</highlighted_element>
+  <language>TEXT</language>
+  <offset>156</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>45</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'yone'</description>
+  <highlighted_element>yone</highlighted_element>
+  <language>TEXT</language>
+  <offset>192</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>46</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'corki'</description>
+  <highlighted_element>corki</highlighted_element>
+  <language>TEXT</language>
+  <offset>199</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>49</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Corki'</description>
+  <highlighted_element>Corki</highlighted_element>
+  <language>TEXT</language>
+  <offset>24</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>50</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Hwei'</description>
+  <highlighted_element>Hwei</highlighted_element>
+  <language>TEXT</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>51</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Orianna'</description>
+  <highlighted_element>Orianna</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>55</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Yone'</description>
+  <highlighted_element>Yone</highlighted_element>
+  <language>TEXT</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>56</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Ziggs'</description>
+  <highlighted_element>Ziggs</highlighted_element>
+  <language>TEXT</language>
+  <offset>24</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>59</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Aphelios'</description>
+  <highlighted_element>Aphelios</highlighted_element>
+  <language>TEXT</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>59</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'milio'</description>
+  <highlighted_element>milio</highlighted_element>
+  <language>TEXT</language>
+  <offset>247</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>60</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'zeri'</description>
+  <highlighted_element>zeri</highlighted_element>
+  <language>TEXT</language>
+  <offset>210</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>60</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'braum'</description>
+  <highlighted_element>braum</highlighted_element>
+  <language>TEXT</language>
+  <offset>227</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>62</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ezreal'</description>
+  <highlighted_element>ezreal</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>62</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Ezreal'</description>
+  <highlighted_element>Ezreal</highlighted_element>
+  <language>TEXT</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>63</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'jhin'</description>
+  <highlighted_element>jhin</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>63</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Jhin'</description>
+  <highlighted_element>Jhin</highlighted_element>
+  <language>TEXT</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>65</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Kai''</description>
+  <highlighted_element>Kai'</highlighted_element>
+  <language>TEXT</language>
+  <offset>24</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>65</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'alistar'</description>
+  <highlighted_element>alistar</highlighted_element>
+  <language>TEXT</language>
+  <offset>247</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>71</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'xayah'</description>
+  <highlighted_element>xayah</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>71</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Xayah'</description>
+  <highlighted_element>Xayah</highlighted_element>
+  <language>TEXT</language>
+  <offset>24</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>72</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Zeri'</description>
+  <highlighted_element>Zeri</highlighted_element>
+  <language>TEXT</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>75</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Alistar'</description>
+  <highlighted_element>Alistar</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>77</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Braum'</description>
+  <highlighted_element>Braum</highlighted_element>
+  <language>TEXT</language>
+  <offset>24</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>81</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Milio'</description>
+  <highlighted_element>Milio</highlighted_element>
+  <language>TEXT</language>
+  <offset>24</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>85</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Rell'</description>
+  <highlighted_element>Rell</highlighted_element>
+  <language>TEXT</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>86</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Glasc'</description>
+  <highlighted_element>Glasc</highlighted_element>
+  <language>TEXT</language>
+  <offset>32</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>90</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'kennen'</description>
+  <highlighted_element>kennen</highlighted_element>
+  <language>TEXT</language>
+  <offset>200</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>92</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Kennen'</description>
+  <highlighted_element>Kennen</highlighted_element>
+  <language>TEXT</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>94</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'volibear'</description>
+  <highlighted_element>volibear</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>8</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>94</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Volibear'</description>
+  <highlighted_element>Volibear</highlighted_element>
+  <language>TEXT</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>104</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'kassadin'</description>
+  <highlighted_element>kassadin</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>8</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>104</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Kassadin'</description>
+  <highlighted_element>Kassadin</highlighted_element>
+  <language>TEXT</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>106</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'neeko'</description>
+  <highlighted_element>neeko</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>106</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Neeko'</description>
+  <highlighted_element>Neeko</highlighted_element>
+  <language>TEXT</language>
+  <offset>24</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>107</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ryze'</description>
+  <highlighted_element>ryze</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>107</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Ryze'</description>
+  <highlighted_element>Ryze</highlighted_element>
+  <language>TEXT</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>113</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'sivir'</description>
+  <highlighted_element>sivir</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>113</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Sivir'</description>
+  <highlighted_element>Sivir</highlighted_element>
+  <language>TEXT</language>
+  <offset>24</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>118</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'blitzcrank'</description>
+  <highlighted_element>blitzcrank</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>118</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Blitzcrank'</description>
+  <highlighted_element>Blitzcrank</highlighted_element>
+  <language>TEXT</language>
+  <offset>29</offset>
+  <length>10</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>121</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'soraka'</description>
+  <highlighted_element>soraka</highlighted_element>
+  <language>TEXT</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>121</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Soraka'</description>
+  <highlighted_element>Soraka</highlighted_element>
+  <language>TEXT</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/data.js</file>
+  <line>135</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/data.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'teamfight'</description>
+  <highlighted_element>teamfight</highlighted_element>
+  <language>TEXT</language>
+  <offset>126</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/METHODOLOGY.md</file>
+  <line>32</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/METHODOLOGY.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'saveable'</description>
+  <highlighted_element>saveable</highlighted_element>
+  <language>Markdown</language>
+  <offset>62</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/tests/ui-smoke.test.js</file>
+  <line>17</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/ui-smoke.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'dirname'</description>
+  <highlighted_element>dirname</highlighted_element>
+  <language>TEXT</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/ui-smoke.test.js</file>
+  <line>102</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/ui-smoke.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'winprob'</description>
+  <highlighted_element>winprob</highlighted_element>
+  <language>TEXT</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/ui-smoke.test.js</file>
+  <line>103</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/ui-smoke.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'reco'</description>
+  <highlighted_element>reco</highlighted_element>
+  <language>TEXT</language>
+  <offset>25</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/ui-smoke.test.js</file>
+  <line>151</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/ui-smoke.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Sejuani'</description>
+  <highlighted_element>Sejuani</highlighted_element>
+  <language>TEXT</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/engine.js</file>
+  <line>11</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/engine.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'deps'</description>
+  <highlighted_element>deps</highlighted_element>
+  <language>TEXT</language>
+  <offset>8</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/engine.js</file>
+  <line>459</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/engine.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'teamfight'</description>
+  <highlighted_element>teamfight</highlighted_element>
+  <language>TEXT</language>
+  <offset>76</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/tests/browser-harness.html</file>
+  <line>31</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/browser-harness.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'winprob'</description>
+  <highlighted_element>winprob</highlighted_element>
+  <language>XML</language>
+  <offset>9</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/browser-harness.html</file>
+  <line>31</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/browser-harness.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'winprob'</description>
+  <highlighted_element>winprob</highlighted_element>
+  <language>XML</language>
+  <offset>72</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/browser-harness.html</file>
+  <line>44</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/browser-harness.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'winprob'</description>
+  <highlighted_element>winprob</highlighted_element>
+  <language>XML</language>
+  <offset>9</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/browser-harness.html</file>
+  <line>44</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/browser-harness.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'winprob'</description>
+  <highlighted_element>winprob</highlighted_element>
+  <language>XML</language>
+  <offset>88</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/browser-harness.html</file>
+  <line>75</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/browser-harness.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Sejuani'</description>
+  <highlighted_element>Sejuani</highlighted_element>
+  <language>XML</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/browser-harness.html</file>
+  <line>75</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/browser-harness.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Sejuani'</description>
+  <highlighted_element>Sejuani</highlighted_element>
+  <language>XML</language>
+  <offset>51</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>87</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Reco'</description>
+  <highlighted_element>Reco</highlighted_element>
+  <language>TEXT</language>
+  <offset>10</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>169</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'winprob'</description>
+  <highlighted_element>winprob</highlighted_element>
+  <language>TEXT</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>227</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'reco'</description>
+  <highlighted_element>reco</highlighted_element>
+  <language>TEXT</language>
+  <offset>18</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>291</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'unavail'</description>
+  <highlighted_element>unavail</highlighted_element>
+  <language>TEXT</language>
+  <offset>12</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>420</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'bestof'</description>
+  <highlighted_element>bestof</highlighted_element>
+  <language>TEXT</language>
+  <offset>37</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>505</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'teamfight'</description>
+  <highlighted_element>teamfight</highlighted_element>
+  <language>TEXT</language>
+  <offset>18</offset>
+  <length>9</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>505</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Teamfight'</description>
+  <highlighted_element>Teamfight</highlighted_element>
+  <language>TEXT</language>
+  <offset>57</offset>
+  <length>9</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>674</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'sejuani'</description>
+  <highlighted_element>sejuani</highlighted_element>
+  <language>TEXT</language>
+  <offset>61</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>677</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ksante'</description>
+  <highlighted_element>ksante</highlighted_element>
+  <language>TEXT</language>
+  <offset>58</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>677</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'aatrox'</description>
+  <highlighted_element>aatrox</highlighted_element>
+  <language>TEXT</language>
+  <offset>99</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/app.js</file>
+  <line>679</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'orianna'</description>
+  <highlighted_element>orianna</highlighted_element>
+  <language>TEXT</language>
+  <offset>97</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/styles.css</file>
+  <line>23</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/styles.css" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Segoe'</description>
+  <highlighted_element>Segoe</highlighted_element>
+  <language>TEXT</language>
+  <offset>51</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/styles.css</file>
+  <line>23</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/styles.css" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Neue'</description>
+  <highlighted_element>Neue</highlighted_element>
+  <language>TEXT</language>
+  <offset>81</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/styles.css</file>
+  <line>136</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/styles.css" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'winprob'</description>
+  <highlighted_element>winprob</highlighted_element>
+  <language>TEXT</language>
+  <offset>1</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/styles.css</file>
+  <line>160</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/styles.css" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'reco'</description>
+  <highlighted_element>reco</highlighted_element>
+  <language>TEXT</language>
+  <offset>1</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/styles.css</file>
+  <line>182</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/styles.css" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'minmax'</description>
+  <highlighted_element>minmax</highlighted_element>
+  <language>TEXT</language>
+  <offset>58</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/styles.css</file>
+  <line>220</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/styles.css" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'efac'</description>
+  <highlighted_element>efac</highlighted_element>
+  <language>TEXT</language>
+  <offset>29</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/SUBMISSION.md</file>
+  <line>1</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/SUBMISSION.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Devpost'</description>
+  <highlighted_element>Devpost</highlighted_element>
+  <language>Markdown</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/SUBMISSION.md</file>
+  <line>5</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/SUBMISSION.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Devpost'</description>
+  <highlighted_element>Devpost</highlighted_element>
+  <language>Markdown</language>
+  <offset>2</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/SUBMISSION.md</file>
+  <line>31</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/SUBMISSION.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Devpost'</description>
+  <highlighted_element>Devpost</highlighted_element>
+  <language>Markdown</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/SUBMISSION.md</file>
+  <line>98</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/SUBMISSION.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Devpost'</description>
+  <highlighted_element>Devpost</highlighted_element>
+  <language>Markdown</language>
+  <offset>55</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/SUBMISSION.md</file>
+  <line>108</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/SUBMISSION.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Sejuani'</description>
+  <highlighted_element>Sejuani</highlighted_element>
+  <language>Markdown</language>
+  <offset>59</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/SUBMISSION.md</file>
+  <line>109</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/SUBMISSION.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Sejuani'</description>
+  <highlighted_element>Sejuani</highlighted_element>
+  <language>Markdown</language>
+  <offset>11</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/AI_SHOWCASE.md</file>
+  <line>17</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/AI_SHOWCASE.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Devpost'</description>
+  <highlighted_element>Devpost</highlighted_element>
+  <language>Markdown</language>
+  <offset>58</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/index.html</file>
+  <line>36</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/index.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'bestof'</description>
+  <highlighted_element>bestof</highlighted_element>
+  <language>XML</language>
+  <offset>26</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/index.html</file>
+  <line>58</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/index.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'winprob'</description>
+  <highlighted_element>winprob</highlighted_element>
+  <language>XML</language>
+  <offset>21</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/index.html</file>
+  <line>80</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/index.html" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'reco'</description>
+  <highlighted_element>reco</highlighted_element>
+  <language>XML</language>
+  <offset>31</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>98</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'corki'</description>
+  <highlighted_element>corki</highlighted_element>
+  <language>TEXT</language>
+  <offset>48</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>99</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'yone'</description>
+  <highlighted_element>yone</highlighted_element>
+  <language>TEXT</language>
+  <offset>20</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>103</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'aatrox'</description>
+  <highlighted_element>aatrox</highlighted_element>
+  <language>TEXT</language>
+  <offset>20</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>104</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'sejuani'</description>
+  <highlighted_element>sejuani</highlighted_element>
+  <language>TEXT</language>
+  <offset>20</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>185</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Aatrox'</description>
+  <highlighted_element>Aatrox</highlighted_element>
+  <language>TEXT</language>
+  <offset>69</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>200</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Sejuani'</description>
+  <highlighted_element>Sejuani</highlighted_element>
+  <language>TEXT</language>
+  <offset>28</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>208</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'orianna'</description>
+  <highlighted_element>orianna</highlighted_element>
+  <language>TEXT</language>
+  <offset>14</offset>
+  <length>7</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>230</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'braum'</description>
+  <highlighted_element>braum</highlighted_element>
+  <language>TEXT</language>
+  <offset>14</offset>
+  <length>5</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>233</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ksante'</description>
+  <highlighted_element>ksante</highlighted_element>
+  <language>TEXT</language>
+  <offset>14</offset>
+  <length>6</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>256</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Ahri'</description>
+  <highlighted_element>Ahri</highlighted_element>
+  <language>TEXT</language>
+  <offset>5</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>258</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'ahri'</description>
+  <highlighted_element>ahri</highlighted_element>
+  <language>TEXT</language>
+  <offset>34</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>267</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'jhin'</description>
+  <highlighted_element>jhin</highlighted_element>
+  <language>TEXT</language>
+  <offset>20</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>270</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'mids'</description>
+  <highlighted_element>mids</highlighted_element>
+  <language>TEXT</language>
+  <offset>31</offset>
+  <length>4</length>
+</problem><problem>
+  <file>file://$PROJECT_DIR$/tests/engine.test.js</file>
+  <line>326</line>
+  <module>cloud9-skys-limit</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/tests/engine.test.js" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Spelling</problem_class>
+  <description>Typo: In word 'Maokai'</description>
+  <highlighted_element>Maokai</highlighted_element>
+  <language>TEXT</language>
+  <offset>45</offset>
+  <length>6</length>
+</problem>
+</problems>
