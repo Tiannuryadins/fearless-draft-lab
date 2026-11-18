@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fearless Draft Lab — LoL Macro Scouting &amp; Draft Management</title>
+<meta name="description" content="A League of Legends coaching tool: Fearless Draft simulator, counter-pick recommendations, live draft win-rate model, macro scouting and How-to-Win insights. Built for the Cloud9 x JetBrains Sky's The Limit Hackathon 2026.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">FDL</div>
+    <div>
+      <h1>Fearless Draft Lab</h1>
+      <p class="tagline">LoL Macro Scouting &amp; Draft Management &middot; Cloud9 x JetBrains Hackathon 2026</p>
+    </div>
+  </div>
+  <div class="series-badge" id="series-badge" title="Current series score"></div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Main views">
+  <button class="tab active" data-view="draft" onclick="App.showView('draft')" role="tab">Draft Lab</button>
+  <button class="tab" data-view="scout" onclick="App.showView('scout')" role="tab">Scouting</button>
+  <button class="tab" data-view="champs" onclick="App.showView('champs')" role="tab">Champions</button>
+  <button class="tab" data-view="reports" onclick="App.showView('reports')" role="tab">Reports &amp; Data</button>
+</nav>
+
+<main>
+  <!-- ============================ DRAFT LAB ============================ -->
+  <section id="view-draft" class="view active" aria-label="Draft Lab">
+    <div class="panel setup-bar">
+      <label>Blue team <input id="setup-blue" type="text" maxlength="24" value="Cloud9"></label>
+      <label>Red team <input id="setup-red" type="text" maxlength="24" value="Opponent"></label>
+      <label>Series
+        <select id="setup-bestof">
+          <option value="5" selected>Best of 5</option>
+          <option value="3">Best of 3</option>
+        </select>
+      </label>
+      <label class="check"><input id="setup-fearless" type="checkbox" checked> Fearless Draft</label>
+      <label class="check"><input id="setup-ai-red" type="checkbox" checked> AI plays Red</label>
+      <button class="btn primary" onclick="App.newSeries()">New series</button>
+    </div>
+
+    <div id="turn-banner" class="turn-banner"></div>
+
+    <div class="draft-layout">
+      <div class="draft-board panel">
+        <div class="board-columns">
+          <div class="team-col blue">
+            <h3 id="board-blue-name">Cloud9</h3>
+            <div class="ban-row" id="blue-bans"></div>
+            <div class="pick-slots" id="blue-picks"></div>
+          </div>
+          <div class="board-mid">
+            <div class="vs">VS</div>
+            <div id="winprob" class="winprob"></div>
+            <div id="game-score" class="game-score"></div>
+          </div>
+          <div class="team-col red">
+            <h3 id="board-red-name">Opponent</h3>
+            <div class="ban-row" id="red-bans"></div>
+            <div class="pick-slots" id="red-picks"></div>
+          </div>
+        </div>
+        <div class="draft-controls">
+          <button class="btn" onclick="App.aiMove()" id="btn-ai-move">AI plays this step</button>
+          <button class="btn" onclick="App.autoPlay()">Auto-play draft</button>
+          <button class="btn" onclick="App.undo()">Undo</button>
+          <button class="btn" onclick="App.resetGame()">Reset game</button>
+          <span id="complete-controls"></span>
+        </div>
+        <div id="fearless-pool" class="fearless-pool"></div>
+        <div id="draft-log" class="draft-log"></div>
+      </div>
+
+      <div class="draft-side">
+        <div class="panel" id="comp-panel"></div>
+        <div class="panel" id="reco-panel"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="grid-toolbar">
+        <input id="draft-search" type="search" placeholder="Search champions…" aria-label="Search champions in the draft pool" oninput="App.setDraftSearch(this.value)">
+        <div class="role-chips" id="draft-role-chips"></div>
+        <span class="hint" id="draft-hint"></span>
+      </div>
+      <div id="target-role" class="target-role"></div>
+      <div id="champ-grid" class="champ-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============================ SCOUTING ============================ -->
+  <section id="view-scout" class="view" aria-label="Scouting">
+    <div class="panel scout-toolbar">
+      <label>Opponent
+        <select id="scout-team-select" onchange="App.setScoutTeam(this.value)"></select>
+      </label>
+      <span class="sample-note">Sample profiles are synthetic demonstration data. Import real GRID exports under Reports &amp; Data.</span>
+    </div>
+    <div id="scout-content"></div>
+  </section>
+
+  <!-- ============================ CHAMPIONS ============================ -->
+  <section id="view-champs" class="view" aria-label="Champion database">
+    <div class="panel">
+      <div class="grid-toolbar">
+        <input id="champ-search" type="search" placeholder="Search champions…" aria-label="Search the champion database" oninput="App.setChampSearch(this.value)">
+        <div class="role-chips" id="champ-role-chips"></div>
+        <label>Sort
+          <select id="champ-sort" onchange="App.setChampSort(this.value)">
+            <option value="name">Name (A–Z)</option>
+            <option value="early">Early power</option>
+            <option value="late">Late power</option>
+            <option value="diff">Difficulty</option>
+          </select>
+        </label>
+        <span class="hint" id="champ-count"></span>
+      </div>
+      <div id="champ-detail"></div>
+      <div id="champ-db-grid" class="champ-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============================ REPORTS ============================ -->
+  <section id="view-reports" class="view" aria-label="Reports and data">
+    <div class="panel" id="series-report"></div>
+    <div class="panel">
+      <h2>Save / load series</h2>
+      <div class="row">
+        <input id="report-name" type="text" maxlength="60" placeholder="Report name, e.g. C9 vs NXF — scrims 12 Jan" aria-label="Report name">
+        <button class="btn primary" onclick="App.saveReport()">Save current series</button>
+        <button class="btn" onclick="App.exportSeries()">Export series JSON</button>
+        <button class="btn" onclick="window.print()">Print report</button>
+      </div>
+      <div id="saved-reports"></div>
+    </div>
+    <div class="panel">
+      <h2>Import scouting data (GRID export format)</h2>
+      <p class="muted">Paste a team scouting profile as JSON — same shape as the bundled samples:
+        <code>{ "name", "tag", "region", "tendencies": {...}, "banTendencies": [...], "game1PickRates": [...], "players": [{ "name", "role", "pool": [{ "champ", "games", "wins" }] }] }</code>.
+        Champion ids must exist in the embedded database. Imported teams are stored locally in your browser only.</p>
+      <textarea id="import-json" rows="6" aria-label="Scouting profile JSON to import" placeholder='{"name": "My Opponent", "tag": "OPP", "players": [...]}'></textarea>
+      <div class="row">
+        <button class="btn primary" onclick="App.importScout()">Validate &amp; import</button>
+        <button class="btn" onclick="App.fillSampleImport()">Fill with a valid example</button>
+      </div>
+      <div id="import-result"></div>
+      <div id="imported-teams"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p><strong>Fearless Draft Lab</strong> — Category 2 (LoL): Macro Scouting &amp; Draft Management System.
+  Built with IntelliJ IDEA Community Edition (JetBrains) — headless code inspection &amp; formatting; see README for the tooling record.
+  Champion data is curated static game knowledge; scouting profiles are labelled synthetic samples unless imported.
+  Win-rate figures are a heuristic model estimate, not a prediction. Not affiliated with Riot Games, Cloud9, or JetBrains.</p>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
