@@ -1,0 +1,121 @@
+<!-- Fearless Draft Lab — real-browser harness. Serve the project root (python3 -m http.server 8000) and open tests/browser-harness.html in a real browser. It drives the app in an iframe through a full draft, all four views, and import validation, then prints PASS/FAIL lines. -->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>HARNESS</title></head>
+<body>
+<iframe id="app" src="/" style="width:1200px;height:800px"></iframe>
+<pre id="results">RUNNING</pre>
+<script>
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const results = [];
+function check(name, cond, extra) {
+  results.push((cond ? 'PASS' : 'FAIL') + ' | ' + name + (extra ? ' | ' + extra : ''));
+}
+async function run() {
+  const frame = document.getElementById('app');
+  await new Promise(r => {
+    if (frame.contentDocument && frame.contentDocument.readyState === 'complete') r();
+    else frame.onload = r;
+  });
+  await sleep(500);
+  const doc = frame.contentDocument, win = frame.contentWindow;
+  const errors = [];
+  const origErr = win.console.error;
+  win.console.error = (...a) => { errors.push(a.join(' ')); origErr.apply(win.console, a); };
+  win.addEventListener('error', e => errors.push('JS error: ' + e.message));
+
+  // 1. Draft view renders
+  const grid = doc.querySelectorAll('#champ-grid .champ-card');
+  check('draft grid renders 88 champions', grid.length === 88, 'got ' + grid.length);
+  check('turn banner shows BAN step', /BAN/.test(doc.getElementById('turn-banner').textContent));
+  check('winprob shows 50/50 initially', /50%/.test(doc.getElementById('winprob').textContent));
+  check('ban suggestions render (5)', doc.querySelectorAll('#reco-panel .reco-item').length === 5,
+    'got ' + doc.querySelectorAll('#reco-panel .reco-item').length);
+
+  // 2. Auto-play a full draft
+  const autoBtn = [...doc.querySelectorAll('.draft-controls .btn')].find(b => b.textContent.includes('Auto-play'));
+  check('auto-play button exists', !!autoBtn);
+  autoBtn.click();
+  await sleep(300);
+  check('draft completes after auto-play', /Draft complete/.test(doc.getElementById('turn-banner').textContent));
+  const bluePicks = doc.querySelectorAll('#blue-picks .pick-slot:not(.empty)').length;
+  const redPicks = doc.querySelectorAll('#red-picks .pick-slot:not(.empty)').length;
+  check('both teams have 5 picks', bluePicks === 5 && redPicks === 5, bluePicks + '/' + redPicks);
+  check('winprob model active after picks', !/activates after/.test(doc.getElementById('winprob').textContent));
+  check('comp analysis renders factors', doc.querySelectorAll('#comp-panel .factor').length >= 0);
+
+  // 3. Complete game 1
+  const winBtn = doc.querySelector('.btn.blue-win');
+  check('blue win button present', !!winBtn);
+  if (winBtn) winBtn.click();
+  await sleep(300);
+  check('series badge shows 1-0', /1 – 0/.test(doc.getElementById('series-badge').textContent),
+    doc.getElementById('series-badge').textContent);
+  check('fearless pool shows 10 locks', doc.querySelectorAll('#fearless-pool .lock-chip').length === 10,
+    'got ' + doc.querySelectorAll('#fearless-pool .lock-chip').length);
+  check('game 2 started', /Game 2/.test(doc.getElementById('turn-banner').textContent));
+
+  // 4. Undo works in game 2
+  const firstAvail = doc.querySelector('#champ-grid .champ-card:not(.unavailable)');
+  firstAvail.click();
+  await sleep(600); // AI red replies on its turn
+  const stepAfter = doc.getElementById('turn-banner').textContent;
+  doc.querySelectorAll('.draft-controls .btn');
+  const undoBtn = [...doc.querySelectorAll('.draft-controls .btn')].find(b => b.textContent === 'Undo');
+  undoBtn.click();
+  await sleep(200);
+  check('undo returns to step 1', /Step 1\/20/.test(doc.getElementById('turn-banner').textContent),
+    doc.getElementById('turn-banner').textContent);
+
+  // 5. Scouting view
+  doc.querySelector('[data-view="scout"]').click();
+  await sleep(200);
+  const scoutText = doc.getElementById('scout-content').textContent;
+  check('scout view renders NXF', /Northwind Foxes/.test(scoutText));
+  check('scout insights mention Sejuani ban', /Ban Sejuani early/.test(scoutText));
+  check('fearless shift panel present', /Fearless shift/.test(scoutText));
+  check('player pool renders', /Burrow/.test(scoutText) && /72%/.test(scoutText));
+
+  // 6. Champions view
+  doc.querySelector('[data-view="champs"]').click();
+  await sleep(200);
+  const dbGrid = doc.querySelectorAll('#champ-db-grid .champ-card');
+  check('champion db renders 88', dbGrid.length === 88, 'got ' + dbGrid.length);
+  dbGrid[0].click();
+  await sleep(200);
+  check('champion detail opens', !!doc.querySelector('#champ-detail .champ-detail'));
+
+  // 7. Reports view + import validation
+  doc.querySelector('[data-view="reports"]').click();
+  await sleep(200);
+  const reportText = doc.getElementById('series-report').textContent;
+  check('series report shows game 1', /Score: 1–0/.test(reportText), reportText.slice(0, 80));
+  const ta = doc.getElementById('import-json');
+  ta.value = '{"name": 123}';
+  [...doc.querySelectorAll('.btn')].find(b => b.textContent.includes('Validate')).click();
+  await sleep(200);
+  check('import rejects invalid team', /rejected/i.test(doc.getElementById('import-result').textContent));
+  [...doc.querySelectorAll('.btn')].find(b => b.textContent.includes('valid example')).click();
+  await sleep(100);
+  [...doc.querySelectorAll('.btn')].find(b => b.textContent.includes('Validate')).click();
+  await sleep(200);
+  check('import accepts valid example', /Imported Example Rivals/.test(doc.getElementById('import-result').textContent));
+  const savedName = doc.getElementById('report-name');
+  savedName.value = 'Harness report';
+  [...doc.querySelectorAll('.btn')].find(b => b.textContent.includes('Save current series')).click();
+  await sleep(200);
+  check('report save works', /Harness report/.test(doc.getElementById('saved-reports').textContent));
+
+  // 8. No console errors
+  check('no console errors', errors.length === 0, errors.slice(0, 3).join(' ; '));
+
+  document.getElementById('results').textContent = results.join('\n');
+  document.title = 'HARNESS:DONE';
+}
+run().catch(e => {
+  document.getElementById('results').textContent = 'FAIL | harness crashed: ' + e.message + '\n' + results.join('\n');
+  document.title = 'HARNESS:DONE';
+});
+</script>
+</body>
+</html>
